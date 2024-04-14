@@ -165,9 +165,12 @@ export default function Home() {
       {
         sortedMovies.map((movie, index) => (
           <section key={index} className="relative snap-start flex justify-center items-center h-[100vh]" ref={(el) => sectionRefs.current[index] = el} id={`section-${index}`}>
-            <div className="w-[500px] h-[800px] m-[20px] overflow-hidden">
+            <div className="w-[500px] h-[800px] m-[20px] ">
               <img src={movie.image || "https://m.media-amazon.com/images/I/618stJ-jeAL.jpg"} alt={`${movie.title}`} />
               <h2 className="m-0 font-bold text-red-600 text-[50px] absolute " style={{top: 'calc(50%  - 25px)', left: 'calc(50% + 205px)'}}>{`#${movie.index}`}</h2>
+              <div className="bg-black absolute" style={{ top: 'calc(5%) + 200px', left: 'calc(0%)' }}>
+                <h1 className="m-0 font-bold text-green-600 text-[50px] " >{`IMDB Rating: ${movie.rating}`}</h1>
+              </div>
             </div>
           </section>
         ))
