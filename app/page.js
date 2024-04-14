@@ -176,6 +176,11 @@ export default function Home() {
         ))
       }
       
+      <div className="relative snap-start flex justify-center items-center h-[100vh]" >
+        <div className="w-[500px] h-[800px] m-[20px] ">
+          <img src="https://media.discordapp.net/attachments/1228772974904213617/1229081770251522088/Screenshot_2024-04-14_at_9.52.03_AM.png?ex=662e6299&is=661bed99&hm=16c22992be971046483561146640b1e3f0ea5e95a9e6d585f5d0577aea37c971&=&format=webp&quality=lossless&width=2014&height=1342"  />
+        </div>
+      </div>
     </main>
   );
 }
