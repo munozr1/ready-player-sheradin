@@ -152,9 +152,9 @@ export default function Home() {
         <p>
           The clear hierarchy established through rankings allows for immediate<br></br> 
           comparison and contrast, fostering engagement as viewers track their <br></br>
-          favorite actors' career progression or discover new talents. Moreover, its<br></br>
+          favorite actors career progression or discover new talents. Moreover, its<br></br>
            interactivity enables a straightforward narrative of success, encouraging<br></br>
-            audiences to delve deeper into the metrics that contribute to an actor's<br></br>
+            audiences to delve deeper into the metrics that contribute to an actors<br></br>
              placement. 
         </p>
       </div>
