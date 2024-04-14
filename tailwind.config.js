@@ -12,6 +12,12 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        pixelfy: [ "Pixelfy Sans", "sans-serif"] // 'sans-serif' is a fallback font
+      },
+      animation: {
+        fadeIn: 'fadeIn 1s ease-out forwards',
+      }
     },
   },
   plugins: [],
